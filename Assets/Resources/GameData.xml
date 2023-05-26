@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<system>
+	<PlayerLevels>
+		<level id="2" expPoints="1200"/>
+		<level id="3" expPoints="4000"/>
+		<level id="4" expPoints="8000"/>
+		<level id="5" expPoints="15000"/>
+		<level id="6" expPoints="25000"/>
+		<level id="7" expPoints="40000"/>
+		<level id="8" expPoints="70000"/>
+		<level id="9" expPoints="125000"/>
+		<level id="10" expPoints="200000"/>
+		<level id="11" expPoints="320000"/>
+		<level id="12" expPoints="512000"/>
+		<level id="13" expPoints="820000"/>
+		<level id="14" expPoints="1300000"/>
+		<level id="15" expPoints="2000000"/>
+		<level id="16" expPoints="3000000"/>
+		<level id="17" expPoints="6500000"/>
+		<level id="18" expPoints="10000000"/>
+		<level id="19" expPoints="15000000"/>
+		<level id="20" expPoints="25000000"/>
+		<level id="21" expPoints="50000000"/>
+	</PlayerLevels>
+	<Worlds>
+		<world id="1" name="Village" levels="15" starsToCompleteWorld="4">
+      <level id="1" type="DAY"/>
+      <level id="2" type="DAY"/>
+      <level id="3" type="DAY"/>
+			<level id="4" type="DAY"/>
+			<level id="5" type="DAY"/>
+			<level id="6" type="DAY"/>
+			<level id="7" type="DAY"/>
+			<level id="8" type="DAY"/>
+			<level id="9" type="DAY"/>
+			<level id="10" type="DAY"/>
+			<level id="11" type="DAY"/>
+			<level id="12" type="DAY"/>
+			<level id="13" type="DAY"/>
+			<level id="14" type="DAY"/>
+			<level id="15" type="DAY"/>
+    </world>
+    <world id="2" name="Ice Cave" levels="15" starsToCompleteWorld="5">
+      <level id="1" type="MORNING"/>
+      <level id="2" type="DAY"/>
+      <level id="3" type="NIGHT"/>
+      <level id="4" type="MORNING"/>
+      <level id="5" type="NIGHT"/>
+      <level id="6" type="DAY"/>
+      <level id="7" type="NIGHT"/>
+      <level id="8" type="NIGHT"/>
+      <level id="9" type="NIGHT"/>
+      <level id="10" type="NIGHT"/>
+      <level id="11" type="NIGHT"/>
+      <level id="12" type="NIGHT"/>
+      <level id="13" type="NIGHT"/>
+      <level id="14" type="NIGHT"/>
+      <level id="15" type="NIGHT"/>
+    </world>
+    <world id="3" name="Seaside" levels="15" starsToCompleteWorld="180">
+      <level id="1" type="DAY"/>
+      <level id="2" type="DAY"/>
+      <level id="3" type="NIGHT"/>
+      <level id="4" type="MORNING"/>
+      <level id="5" type="NIGHT"/>
+      <level id="6" type="DAY"/>
+      <level id="7" type="NIGHT"/>
+      <level id="8" type="NIGHT"/>
+      <level id="9" type="NIGHT"/>
+      <level id="10" type="NIGHT"/>
+      <level id="11" type="NIGHT"/>
+      <level id="12" type="NIGHT"/>
+      <level id="13" type="NIGHT"/>
+      <level id="14" type="NIGHT"/>
+      <level id="15" type="NIGHT"/>
+    </world>
+	</Worlds>
+	<GoldStartValue>300</GoldStartValue>
+	<ExpForVirgin>150</ExpForVirgin>
+	<GoldForVirgin>100</GoldForVirgin>
+	<GoldForLevelComplete>150</GoldForLevelComplete>
+	<EpxForLevelComplete>900</EpxForLevelComplete>
+</system>

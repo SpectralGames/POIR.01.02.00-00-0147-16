@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3388c6fc9b8ab534fb7a60dcb48a0697, type: 3}
+  m_Name: MainManu
+  m_EditorClassIdentifier: 
+  clips:
+  - audioClip: {fileID: 8300000, guid: b10724697d6071d4293a80b25f6c9f7f, type: 3}
+    fade:
+      fadeIn:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 3
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+      fadeOut:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: -0.33333334
+          outSlope: -0.33333334
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 3
+          value: 0
+          inSlope: -0.33333334
+          outSlope: -0.33333334
+          tangentMode: 34
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0

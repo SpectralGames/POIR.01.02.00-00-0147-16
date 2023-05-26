@@ -1,0 +1,148 @@
+{
+    "symbolData": [
+        {
+            "symbolName": "Up",
+            "mainSubsymbolList": [
+                0
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Down",
+            "mainSubsymbolList": [
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Left",
+            "mainSubsymbolList": [
+                2
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Right",
+            "mainSubsymbolList": [
+                3
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Push",
+            "mainSubsymbolList": [
+                8
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Pull",
+            "mainSubsymbolList": [
+                9
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "RightUpDiagonal",
+            "mainSubsymbolList": [
+                4
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "RightDownDiagonal",
+            "mainSubsymbolList": [
+                5
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "LeftUpDiagonal",
+            "mainSubsymbolList": [
+                6
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "LeftDownDiagonal",
+            "mainSubsymbolList": [
+                7
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "RightSemiCircleDown",
+            "mainSubsymbolList": [
+                10
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "RightSemiCircleUp",
+            "mainSubsymbolList": [
+                11
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "LeftSemiCircleDown",
+            "mainSubsymbolList": [
+                12
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "LeftSemiCircleUp",
+            "mainSubsymbolList": [
+                13
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TopSemiCircleLeft",
+            "mainSubsymbolList": [
+                14
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TopSemiCircleRight",
+            "mainSubsymbolList": [
+                15
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "BottomSemiCircleLeft",
+            "mainSubsymbolList": [
+                16
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "BottomSemiCircleRight",
+            "mainSubsymbolList": [
+                17
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        }
+    ]
+}

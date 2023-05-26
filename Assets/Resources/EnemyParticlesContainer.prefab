@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1416570609021866}
+  m_IsPrefabParent: 1
+--- !u!1 &1416570609021866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4331958599551604}
+  - component: {fileID: 114008100607265736}
+  m_Layer: 0
+  m_Name: EnemyParticlesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331958599551604
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416570609021866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.047438, y: 1.5603628, z: 3.9233952}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114008100607265736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416570609021866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b1f50fb3a3f574895cb9de5051bf6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathParticles: {fileID: 1644294448554574, guid: f5407a7bacb73684a9622826cca21e1a,
+    type: 2}
+  burnSideEffect: {fileID: 1079168674149164, guid: 485be03eeb9fbd44ba5cfebe70f7be49,
+    type: 2}
+  frozenSideEffect: {fileID: 1426157521581186, guid: dec54518a47d54f4cb46ad0da74a86a6,
+    type: 2}
+  teleportParticles: {fileID: 1673985645488598, guid: 4510f5a631c6a4940a6d8da2fbda6e48,
+    type: 2}

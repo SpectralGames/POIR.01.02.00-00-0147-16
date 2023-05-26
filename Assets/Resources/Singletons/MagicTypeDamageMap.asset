@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c809c127f6d292047b7b79b4bdc7cd59, type: 3}
+  m_Name: MagicTypeDamageMap
+  m_EditorClassIdentifier: 
+  typeMapings:
+  - attacker: {fileID: 11400000, guid: cf5fa0b41e3ee6c44ad9b4456fb52129, type: 2}
+    receiver: {fileID: 11400000, guid: 0dd107f52f4c7274e803adc3506cae69, type: 2}
+    modifier: 0.3
+  - attacker: {fileID: 11400000, guid: cf5fa0b41e3ee6c44ad9b4456fb52129, type: 2}
+    receiver: {fileID: 11400000, guid: e0ddb013ff43acc4b809a6ccef750d08, type: 2}
+    modifier: -0.3
+  - attacker: {fileID: 11400000, guid: cf5fa0b41e3ee6c44ad9b4456fb52129, type: 2}
+    receiver: {fileID: 11400000, guid: cf5fa0b41e3ee6c44ad9b4456fb52129, type: 2}
+    modifier: -0.9
+  - attacker: {fileID: 11400000, guid: 0dd107f52f4c7274e803adc3506cae69, type: 2}
+    receiver: {fileID: 11400000, guid: a3246515972aaf44aa6f104cc2b4e0fd, type: 2}
+    modifier: 0.3
+  - attacker: {fileID: 11400000, guid: 0dd107f52f4c7274e803adc3506cae69, type: 2}
+    receiver: {fileID: 11400000, guid: cf5fa0b41e3ee6c44ad9b4456fb52129, type: 2}
+    modifier: -0.3
+  - attacker: {fileID: 11400000, guid: 0dd107f52f4c7274e803adc3506cae69, type: 2}
+    receiver: {fileID: 11400000, guid: 0dd107f52f4c7274e803adc3506cae69, type: 2}
+    modifier: -0.9
+  - attacker: {fileID: 11400000, guid: a3246515972aaf44aa6f104cc2b4e0fd, type: 2}
+    receiver: {fileID: 11400000, guid: 0dd107f52f4c7274e803adc3506cae69, type: 2}
+    modifier: -0.3
+  - attacker: {fileID: 11400000, guid: a3246515972aaf44aa6f104cc2b4e0fd, type: 2}
+    receiver: {fileID: 11400000, guid: 9bfd84dfcadadeb43bb4ca046f324c6c, type: 2}
+    modifier: 0.3
+  - attacker: {fileID: 11400000, guid: a3246515972aaf44aa6f104cc2b4e0fd, type: 2}
+    receiver: {fileID: 11400000, guid: a3246515972aaf44aa6f104cc2b4e0fd, type: 2}
+    modifier: -0.9
+  - attacker: {fileID: 11400000, guid: 9bfd84dfcadadeb43bb4ca046f324c6c, type: 2}
+    receiver: {fileID: 11400000, guid: a3246515972aaf44aa6f104cc2b4e0fd, type: 2}
+    modifier: -0.3
+  - attacker: {fileID: 11400000, guid: 9bfd84dfcadadeb43bb4ca046f324c6c, type: 2}
+    receiver: {fileID: 11400000, guid: e0ddb013ff43acc4b809a6ccef750d08, type: 2}
+    modifier: 0.3
+  - attacker: {fileID: 11400000, guid: 9bfd84dfcadadeb43bb4ca046f324c6c, type: 2}
+    receiver: {fileID: 11400000, guid: 9bfd84dfcadadeb43bb4ca046f324c6c, type: 2}
+    modifier: -0.9
+  - attacker: {fileID: 11400000, guid: e0ddb013ff43acc4b809a6ccef750d08, type: 2}
+    receiver: {fileID: 11400000, guid: 9bfd84dfcadadeb43bb4ca046f324c6c, type: 2}
+    modifier: -0.3
+  - attacker: {fileID: 11400000, guid: e0ddb013ff43acc4b809a6ccef750d08, type: 2}
+    receiver: {fileID: 11400000, guid: cf5fa0b41e3ee6c44ad9b4456fb52129, type: 2}
+    modifier: 0.3
+  - attacker: {fileID: 11400000, guid: e0ddb013ff43acc4b809a6ccef750d08, type: 2}
+    receiver: {fileID: 11400000, guid: e0ddb013ff43acc4b809a6ccef750d08, type: 2}
+    modifier: -0.9

@@ -1,0 +1,113 @@
+{
+    "symbolData": [
+        {
+            "symbolName": "Up-Right-Down",
+            "mainSubsymbolList": [
+                0,
+                3,
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Left",
+            "mainSubsymbolList": [
+                2
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Right",
+            "mainSubsymbolList": [
+                3
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Down",
+            "mainSubsymbolList": [
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Up",
+            "mainSubsymbolList": [
+                0
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Dupa",
+            "mainSubsymbolList": [
+                17,
+                17
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Penis",
+            "mainSubsymbolList": [
+                15,
+                0,
+                15,
+                1,
+                15
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Push",
+            "mainSubsymbolList": [
+                8
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Pull",
+            "mainSubsymbolList": [
+                9
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Circle",
+            "mainSubsymbolList": [
+                10,
+                13
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Square",
+            "mainSubsymbolList": [
+                0,
+                3,
+                1,
+                2
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Up-Left-Down",
+            "mainSubsymbolList": [
+                0,
+                2,
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        }
+    ]
+}

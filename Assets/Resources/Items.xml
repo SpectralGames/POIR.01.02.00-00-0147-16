@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<system>
+	<item itemCodeName="WoodenBolt" type="Spell">
+		<description value="Casual, wooden bolt"/>
+		<stats level="1">
+			<damage value="5"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+			<upward value="5" />
+			<crit value="10" />
+		</stats>
+		<stats level="2">
+			<damage value="8"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+			<upward value="5" />
+			<crit value="10" />
+		</stats>
+		<stats level="3">
+			<damage value="14"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+			<upward value="5" />
+			<crit value="10" />
+		</stats>
+
+		<upgradePrice level="1" price="600" currency="gold"/>
+		<upgradePrice level="2" price="1800" currency="gold"/>
+		<buyPrice price="0" currency="gold"/>
+		<levelExpNeed level="1"/>
+	</item>
+
+	<item itemCodeName="FireBolt" type="Spell">
+		<description value="Flamy fire thingy bolty"/>
+		<stats level="1">
+			<damage value="10"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+		</stats>
+		<stats level="2">
+			<damage value="12"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+		</stats>
+		<stats level="3">
+			<damage value="14"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+		</stats>
+
+		<upgradePrice level="1" price="1200" currency="gold"/>
+		<upgradePrice level="2" price="2100" currency="gold"/>
+		<buyPrice price="0" currency="gold"/>
+		<levelExpNeed level="1"/>
+	</item>
+
+	<item itemCodeName="IceBolt" type="Spell">
+		<description value="Icy cold bolt"/>
+		<stats level="1">
+			<damage value="10"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+		</stats>
+		<stats level="2">
+			<damage value="12"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+		</stats>
+		<stats level="3">
+			<damage value="14"/>
+			<speed value="75" />
+			<throwback value="0.05" />
+		</stats>
+
+		<upgradePrice level="1" price="1200" currency="gold"/>
+		<upgradePrice level="2" price="2100" currency="gold"/>
+		<buyPrice price="0" currency="gold"/>
+		<levelExpNeed level="1"/>
+	</item>
+	
+	<item itemCodeName="FireBall" type="Spell">
+	<description value="A single, quick fiery projectile. Receives a bonus for hitting poison enemies  "/>
+	<stats level="1">
+		<damage value="35"/>
+		<radius value="3"/>
+		<mana value="20"/>
+		<side_effect_damage value="1"/>
+		<side_effect_damage_count value="6"/>
+		<side_effect_rate_time value="0.5"/>
+	</stats>
+	<stats level="2">
+		<damage value="40"/>
+		<radius value="3.5"/>
+		<mana value="20"/>
+		<side_effect_damage value="1"/>
+		<side_effect_damage_count value="8"/>
+		<side_effect_rate_time value="0.5"/>
+	</stats>
+	<stats level="3">
+		<damage value="50"/>
+		<radius value="4"/>
+		<mana value="20"/>
+		<side_effect_damage value="1"/>
+		<side_effect_damage_count value="10"/>
+		<side_effect_rate_time value="0.5"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="0"/>
+		<instant_damage value="1"/>
+		<destroy_time value="5"/>
+	</params>
+	
+	<upgradePrice level="1" price="3500" currency="gold"/>
+	<upgradePrice level="2" price="6000" currency="gold"/>	
+	<buyPrice price="1700" currency="gold"/>
+	<levelExpNeed level="3"/>
+</item>
+
+<item itemCodeName="PoisonBall" type="Spell">
+	<description value="A large sphere of poison, it flies slowly, it deals a lot of damage to enemies. Receives a bonus for hitting dark enemies"/>
+	<stats level="1">
+		<damage value="10"/>
+		<radius value="2.5"/>
+		<mana value="15"/>
+		<duration value="10"/>
+	</stats>
+	<stats level="2">
+		<damage value="70"/>
+		<radius value="3"/>
+		<mana value="17"/>
+	</stats>
+	<stats level="3">
+		<damage value="80"/>
+		<radius value="4"/>
+		<mana value="20"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="0"/>
+		<instant_damage value="0"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="12"/>
+	</params>
+	
+	<upgradePrice level="1" price="4500" currency="gold"/>
+	<upgradePrice level="2" price="8000" currency="gold"/>
+	<buyPrice price="2500" currency="gold"/>
+	<levelExpNeed level="7"/>
+</item>
+
+<item itemCodeName="VioletBall" type="Spell">
+	<description value="A simple but effective projectile for weak opponents. Receives a bonus for hitting electric enemies."/>
+	<stats level="1">
+		<damage value="10"/>
+		<radius value="0.5"/>
+		<mana value="0"/>
+	</stats>
+	<stats level="2">
+		<damage value="15"/>
+		<radius value="1"/>
+		<mana value="0"/>
+	</stats>
+	<stats level="3">
+		<damage value="15"/>
+		<radius value="1.5"/>
+		<mana value="0"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="0"/>
+		<instant_damage value="1"/>
+		<destroy_time value="3"/>
+	</params>
+
+	<upgradePrice level="1" price="1200" currency="gold"/>
+	<upgradePrice level="2" price="3000" currency="gold"/>	
+	<buyPrice price="300" currency="gold"/>
+	<levelExpNeed level="1"/>
+</item>
+
+<item itemCodeName="Lightning" type="Spell">
+	<description value="The electric trap slows down and hurts enemies. Receives a bonus for hitting ice enemies"/>
+	<stats level="1">
+		<damage value="10"/>
+		<radius value="3"/>
+		<mana value="45"/>
+		<duration value="30"/>
+	</stats>
+	<stats level="2">
+		<damage value="15"/>
+		<radius value="4"/>
+		<mana value="45"/>
+		<duration value="40"/>
+	</stats>
+		<stats level="3">
+		<damage value="20"/>
+		<radius value="5"/>
+		<mana value="45"/>
+		<duration value="50"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="0.5"/>
+		<instant_damage value="0"/>
+		<damage_step value="2"/>
+		<destroy_time value="3"/>
+	</params>
+
+	<upgradePrice level="1" price="4500" currency="gold"/>
+	<upgradePrice level="2" price="8000" currency="gold"/>
+	<buyPrice price="2500" currency="gold"/>
+	<levelExpNeed level="5"/>
+</item>
+
+<item itemCodeName="DarkStorm" type="Spell">
+	<description value="TBD"/>
+	<stats level="1">
+		<damage value="5"/>
+		<radius value="6"/>
+		<mana value="25"/>
+		<duration value="10"/>
+	</stats>
+	<stats level="2">
+		<damage value="7"/>
+		<radius value="7"/>
+		<mana value="25"/>
+		<duration value="8"/>
+	</stats>
+		<stats level="3">
+		<damage value="10"/>
+		<radius value="8"/>
+		<mana value="25"/>
+		<duration value="8"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="1"/>
+		<instant_damage value="0"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="3"/>
+	</params>
+
+	<upgradePrice level="1" price="4500" currency="gold"/>
+	<upgradePrice level="2" price="8000" currency="gold"/>
+	<buyPrice price="2500" currency="gold"/>
+	<levelExpNeed level="5"/>
+</item>
+
+<item itemCodeName="IceMeteor" type="Spell">
+	<description value="A large boulder crushing and freezing opponents. Receives a bonus for hitting fire enemies"/>
+	<stats level="1">
+		<damage value="15"/>
+		<radius value="4"/>
+		<mana value="20"/>
+		<duration value="2"/>
+		<side_effect_damage value="4"/>
+		<side_effect_damage_count value="2"/>
+		<side_effect_rate_time value="1"/>
+	</stats>
+	<stats level="2">
+		<damage value="20"/>
+		<radius value="5"/>
+		<mana value="22"/>
+	</stats>
+	<stats level="3">
+		<damage value="25"/>
+		<radius value="6"/>
+		<mana value="23"/>
+	</stats>
+
+	<params>
+		<activation_delay value="0.7"/>
+		<instant_damage value="0"/>
+		<destroy_time value="5"/>
+		<damage_step value="0.7"/>
+	</params>
+	
+	<upgradePrice level="1" price="10000" currency="gold"/>
+	<upgradePrice level="2" price="18000" currency="gold"/>	
+	<buyPrice price="5000" currency="gold"/>
+	<levelExpNeed level="10"/>
+</item>
+
+<item itemCodeName="LightBeam" type="Spell">
+	<description value="Różowe coś- dziala jak kula ognia"/>
+	<stats level="1">
+		<damage value="70"/>
+		<radius value="1.4"/>
+		<mana value="10"/>
+	</stats>
+	<stats level="2">
+		<damage value="90"/>
+		<radius value="1.8"/>
+		<mana value="15"/>
+	</stats>
+	<stats level="3">
+		<damage value="100"/>
+		<radius value="2.0"/>
+		<mana value="17"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="0"/>
+		<instant_damage value="1"/>
+		<destroy_time value="5"/>
+	</params>
+	
+	<upgradePrice level="1" price="7500" currency="gold"/>
+	<upgradePrice level="2" price="15000" currency="gold"/>	
+	<buyPrice price="4000" currency="gold"/>
+	<levelExpNeed level="6"/>
+</item>
+
+
+<item itemCodeName="MagicGrenade" type="Grenade">
+	<description value="Szklany granat"/>
+	<stats level="1">
+		<damage value="50"/>
+		<radius value="2"/>
+		<mana value="0"/>
+	</stats>
+	
+	<params>
+		<activation_delay value="0"/>
+		<instant_damage value="1"/>
+		<destroy_time value="5"/>
+	</params>
+</item>
+
+	<item itemCodeName="RockHand" type="Grenade">
+		<description value="Kamien"/>
+		<stats level="1">
+			<damage value="5"/>
+			<radius value=".2"/>
+			<mana value="0"/>
+		</stats>
+
+		<params>
+			<activation_delay value="0"/>
+			<instant_damage value="1"/>
+			<destroy_time value="2"/>
+		</params>
+	</item>
+
+	<item itemCodeName="ShieldThrow" type="Grenade">
+		<description value="Tarcza"/>
+		<stats level="1">
+			<damage value="30"/>
+			<radius value=".5"/>
+			<mana value="0"/>
+		</stats>
+
+		<params>
+			<activation_delay value="0"/>
+			<instant_damage value="1"/>
+			<destroy_time value="2"/>
+		</params>
+	</item>
+  <item itemCodeName="BucketThrow" type="Grenade">
+		<description value="Bucket"/>
+		<stats level="1">
+			<damage value="20"/>
+			<radius value=".5"/>
+			<mana value="0"/>
+		</stats>
+
+		<params>
+			<activation_delay value="0"/>
+			<instant_damage value="1"/>
+			<destroy_time value="2"/>
+		</params>
+	</item>
+<item itemCodeName="ArcherMaiden" type="Summon">
+	<stats level="1">
+		<attackRate value="25"/>
+		<radius value="7"/>
+		<mana value="30"/>
+		<health value="100"/>
+		<lifeTime value="60"/>
+	</stats>
+	<stats level="2">
+		<attackRate value="30"/>
+		<radius value="8"/>
+		<mana value="30"/>
+		<health value="150"/>
+		<lifeTime value="80"/>
+	</stats>
+	<stats level="3">
+		<attackRate value="35"/>
+		<radius value="10"/>
+		<mana value="30"/>
+		<health value="180"/>
+		<lifeTime value="100"/>
+	</stats>
+	
+	<params>
+		<weapon value="ArcherMaidenWeapon"/>
+	</params>
+	
+	<description value="Archer, she can quickly eliminate large amounts of weak enemies"/>
+	<upgradePrice level="1" price="2000" currency="gold"/>
+	<upgradePrice level="2" price="4000" currency="gold"/>	
+	<buyPrice price="500" currency="gold"/>
+	<levelExpNeed level="2"/>
+</item>
+<item itemCodeName="ThunderMaiden" type="Summon">
+	<stats level="1">
+		<attackRate value="20"/>
+		<radius value="7"/>
+		<mana value="50"/>
+		<health value="120"/>
+		<lifeTime value="60"/>
+	</stats>
+	<stats level="2">
+		<attackRate value="25"/>
+		<radius value="8"/>
+		<mana value="50"/>
+		<health value="140"/>
+		<lifeTime value="80"/>
+	</stats>
+	<stats level="3">
+		<attackRate value="30"/>
+		<radius value="9"/>
+		<mana value="50"/>
+		<health value="160"/>
+		<lifeTime value="100"/>
+	</stats>
+	
+	<params>
+		<weapon value="ThunderMaidenWeapon"/>
+	</params>
+	
+	<description value="Lighting Wizard Description"/>
+	<upgradePrice level="1" price="3500" currency="gold"/>
+	<upgradePrice level="2" price="7000" currency="gold"/>	
+	<buyPrice price="1700" currency="gold"/>
+	<levelExpNeed level="4"/>
+</item>
+
+<item itemCodeName="FireMaiden" type="Summon">
+	<stats level="1">
+		<attackRate value="15"/>
+		<radius value="7"/>
+		<mana value="50"/>
+		<health value="100"/>
+		<lifeTime value="60"/>
+	</stats>
+	<stats level="2">
+		<attackRate value="17"/>
+		<radius value="7.5"/>
+		<mana value="50"/>
+		<health value="150"/>
+		<lifeTime value="80"/>
+	</stats>
+	<stats level="3">
+		<attackRate value="19"/>
+		<radius value="8"/>
+		<mana value="50"/>
+		<health value="180"/>
+		<lifeTime value="100"/>
+	</stats>
+	
+	<params>
+		<weapon value="FireMaidenWeapon"/>
+	</params>
+	
+	<description value="Fire Wizard Description"/>
+	<upgradePrice level="1" price="3500" currency="gold"/>
+	<upgradePrice level="2" price="6000" currency="gold"/>	
+	<buyPrice price="3000" currency="gold"/>
+	<levelExpNeed level="6"/>
+</item>
+
+<item itemCodeName="IceMaiden" type="Summon">
+	<stats level="1">
+		<attackRate value="20"/>
+		<radius value="7"/>
+		<mana value="50"/>
+		<health value="100"/>
+		<lifeTime value="60"/>
+	</stats>
+	<stats level="2">
+		<attackRate value="25"/>
+		<radius value="8"/>
+		<mana value="50"/>
+		<health value="150"/>
+		<lifeTime value="80"/>
+	</stats>
+	<stats level="3">
+		<attackRate value="30"/>
+		<radius value="9"/>
+		<mana value="50"/>
+		<health value="180"/>
+		<lifeTime value="100"/>
+	</stats>
+	
+	<params>
+		<weapon value="IceMaidenWeapon"/>
+	</params>
+	
+	<description value="Ice Wizard Description"/>
+	<upgradePrice level="1" price="4500" currency="gold"/>
+	<upgradePrice level="2" price="8000" currency="gold"/>	
+	<buyPrice price="4000" currency="gold"/>
+	<levelExpNeed level="10"/>
+</item>
+
+<item itemCodeName="PoisonMaiden" type="Summon">
+	<stats level="1">
+		<attackRate value="20"/>
+		<radius value="7"/>
+		<mana value="50"/>
+		<health value="100"/>
+		<lifeTime value="60"/>
+	</stats>
+	<stats level="2">
+		<attackRate value="25"/>
+		<radius value="8"/>
+		<mana value="50"/>
+		<health value="150"/>
+		<lifeTime value="80"/>
+	</stats>
+	<stats level="3">
+		<attackRate value="30"/>
+		<radius value="9"/>
+		<mana value="50"/>
+		<health value="180"/>
+		<lifeTime value="100"/>
+	</stats>
+	
+	<params>
+		<weapon value="PoisonMaidenWeapon"/>
+	</params>
+	
+	<description value="Poison Wizard Description"/>
+	<upgradePrice level="1" price="7000" currency="gold"/>
+	<upgradePrice level="2" price="12000" currency="gold"/>	
+	<buyPrice price="4000" currency="gold"/>
+	<levelExpNeed level="1"/>
+</item>
+
+<item itemCodeName="DarkMaiden" type="Summon">
+	<stats level="1">
+		<attackRate value="5"/>
+		<radius value="7"/>
+		<mana value="50"/>
+		<health value="100"/>
+		<lifeTime value="60"/>
+	</stats>
+	<stats level="2">
+		<attackRate value="25"/>
+		<radius value="8"/>
+		<mana value="50"/>
+		<health value="150"/>
+		<lifeTime value="80"/>
+	</stats>
+	<stats level="3">
+		<attackRate value="30"/>
+		<radius value="9"/>
+		<mana value="50"/>
+		<health value="180"/>
+		<lifeTime value="100"/>
+	</stats>
+	
+	<params>
+		<weapon value="DarkMaidenWeapon"/>
+	</params>
+	
+	<description value="Dark Wizard Description"/>
+	<upgradePrice level="1" price="80" currency="gold"/>
+	<upgradePrice level="2" price="150" currency="gold"/>	
+	<buyPrice price="45" currency="gold"/>
+	<levelExpNeed level="1"/>
+</item>
+
+
+
+<item itemCodeName="ArcherMaidenWeapon" type="SummonWeapon">
+	<stats level="1">
+		<speed value="25"/>
+		<damage value="15"/>
+	</stats>
+	<stats level="2">
+		<speed value="30"/>
+		<damage value="20"/>
+	</stats>
+	<stats level="3">
+		<speed value="35"/>
+		<damage value="25"/>
+	</stats>
+	<description value="Arrow Wizard Description"/>
+</item>
+
+<item itemCodeName="ThunderMaidenWeapon" type="SummonWeapon">
+	<stats level="1">
+		<damage value="20"/>
+		<radius value="1"/>
+		<duration value="8"/>
+	</stats>
+	<stats level="2">
+		<damage value="30"/>
+		<radius value="2"/>
+		<duration value="8"/>
+	</stats>
+	<stats level="3">
+		<damage value="40"/>
+		<radius value="3"/>
+		<duration value="8"/>
+	</stats>
+	<params>
+		<activation_delay value="0.5"/>
+		<instant_damage value="1"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="5"/>
+	</params>
+</item>
+
+<item itemCodeName="IceMaidenWeapon" type="SummonWeapon">
+	<stats level="1">
+		<damage value="10"/>
+		<radius value="6"/>
+		<duration value="6"/>
+		<side_effect_damage value="4"/>
+		<side_effect_damage_count value="2"/>
+		<side_effect_rate_time value="1"/>
+	</stats>
+	<stats level="2">
+		<damage value="12"/>
+		<radius value="7"/>
+		<duration value="6"/>
+		<side_effect_damage value="4"/>
+		<side_effect_damage_count value="2"/>
+		<side_effect_rate_time value="1"/>
+	</stats>
+	<stats level="3">
+		<damage value="12"/>
+		<radius value="7"/>
+		<duration value="6"/>
+		<side_effect_damage value="4"/>
+		<side_effect_damage_count value="2"/>
+		<side_effect_rate_time value="1"/>
+	</stats>
+	<params>
+		<activation_delay value="0.5"/>
+		<instant_damage value="1"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="5"/>
+	</params>
+</item>
+
+<item itemCodeName="FireMaidenWeapon" type="SummonWeapon">
+	<stats level="1">
+		<damage value="5"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<stats level="2">
+		<damage value="10"/>
+		<radius value="1.5"/>
+		<duration value="4"/>
+		<capsule_height value="6"/>
+	</stats>
+	<stats level="3">
+		<damage value="15"/>
+		<radius value="1.5"/>
+		<duration value="5"/>
+		<capsule_height value="6"/>
+	</stats>
+	<params>
+		<activation_delay value="0.5"/>
+		<instant_damage value="0"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="5"/>
+	</params>
+</item>
+
+<item itemCodeName="PoisonMaidenWeapon" type="SummonWeapon">
+	<stats level="1">
+		<damage value="5"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<stats level="2">
+		<damage value="10"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<stats level="3">
+		<damage value="15"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<params>
+		<activation_delay value="0.5"/>
+		<instant_damage value="0"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="5"/>
+	</params>
+</item>
+
+<item itemCodeName="DarkMaidenWeapon" type="SummonWeapon">
+	<stats level="1">
+		<damage value="5"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<stats level="2">
+		<damage value="10"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<stats level="3">
+		<damage value="15"/>
+		<radius value="1.5"/>
+		<duration value="3"/>
+		<capsule_height value="6"/>
+	</stats>
+	<params>
+		<activation_delay value="0.5"/>
+		<instant_damage value="0"/>
+		<damage_step value="0.5"/>
+		<destroy_time value="5"/>
+	</params>
+</item>
+</system>

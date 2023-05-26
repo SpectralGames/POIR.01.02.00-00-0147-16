@@ -1,0 +1,70 @@
+{
+    "symbolData": [
+        {
+            "symbolName": "Symbol_18461902461080",
+            "mainSubsymbolList": [
+                3,
+                11,
+                2
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Symbol_2203021089",
+            "mainSubsymbolList": [
+                5,
+                11,
+                0
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Testowy",
+            "mainSubsymbolList": [
+                0,
+                2,
+                0
+            ],
+            "secondarySubsymbolList": [
+                0,
+                3
+            ],
+            "doubleGesture": true
+        },
+        {
+            "symbolName": "Symbol_2204032065",
+            "mainSubsymbolList": [
+                4,
+                5,
+                2,
+                8
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Double Symbol Left-Right",
+            "mainSubsymbolList": [
+                2,
+                1
+            ],
+            "secondarySubsymbolList": [
+                3,
+                0
+            ],
+            "doubleGesture": true
+        },
+        {
+            "symbolName": "Double Gesture Left-Down",
+            "mainSubsymbolList": [
+                2
+            ],
+            "secondarySubsymbolList": [
+                1
+            ],
+            "doubleGesture": true
+        }
+    ]
+}

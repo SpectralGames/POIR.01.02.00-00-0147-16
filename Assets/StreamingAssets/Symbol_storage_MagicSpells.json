@@ -1,0 +1,120 @@
+{
+    "symbolData": [
+        {
+            "symbolName": "FireBall",
+            "mainSubsymbolList": [
+                2
+            ],
+            "secondarySubsymbolList": [3],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "VioletBall",
+            "mainSubsymbolList": [
+                8
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "LightingTrap",
+            "mainSubsymbolList": [
+                7,
+                3,
+                7
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Teleport",
+            "mainSubsymbolList": [
+                9
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "PoisonBall",
+            "mainSubsymbolList": [
+                6,
+                3,
+                7
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TowerFire",
+            "mainSubsymbolList": [
+                0,
+                5,
+                4,
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TowerIce",
+            "mainSubsymbolList": [
+                5,
+                4,
+                5,
+                4
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TowerThunder",
+            "mainSubsymbolList": [
+                7,
+                3,
+                7
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "IceMeteor",
+            "mainSubsymbolList": [
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TowerArcher",
+            "mainSubsymbolList": [
+                3,
+                1,
+                2
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "TowerPoison",
+            "mainSubsymbolList": [
+                5,
+                2,
+                4
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        },
+        {
+            "symbolName": "Violetball_alt1",
+            "mainSubsymbolList": [
+                1
+            ],
+            "secondarySubsymbolList": [],
+            "doubleGesture": false
+        }
+    ]
+}

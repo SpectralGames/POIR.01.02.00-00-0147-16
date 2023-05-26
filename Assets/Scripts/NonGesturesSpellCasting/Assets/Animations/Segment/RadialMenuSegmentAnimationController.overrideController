@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RadialMenuSegmentAnimationController
+  m_Controller: {fileID: 9100000, guid: d1be6cc2da5e15143ad534b2a13d61d8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e0e6aadbd3ab84d478df23ef8510abcc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 48afdc2734c645048a5aa9d95c565182, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 395ecc130061de04096aedc7f2c28221, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9fa59ea06b3318946be9a12f232cd47d, type: 2}
